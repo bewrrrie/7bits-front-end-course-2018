@@ -1,0 +1,203 @@
+.body {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.header {
+    padding: 70px 0 0 0;
+    font-size: 0;
+    margin: 0 auto 0 auto;
+    width: 1062px;
+}
+
+.logo {
+    font-family: Inconsolata sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.panel {
+    display: inline-block;
+    margin-right: 0;
+    margin-top: 10px;
+    float: right;
+    text-transform: uppercase;
+}
+
+.panel__lifestyle {
+    padding: 0;
+    margin-right: 115px;
+    font-size: 14px;
+    font-family: "Arial MT", sans-serif;
+    text-decoration: none;
+    color: #8c8c8c;
+    display: inline-block;
+}
+
+.panel__photodiary {
+    padding: 0;
+    margin-right: 115px;
+    font-size: 14px;
+    font-family: "Arial MT", sans-serif;
+    text-decoration: none;
+    color: #8c8c8c;
+    display: inline-block;
+}
+
+.panel__music {
+    padding: 0;
+    margin-right: 115px;
+    font-size: 14px;
+    font-family: "Arial MT", sans-serif;
+    text-decoration: none;
+    color: #8c8c8c;
+    display: inline-block;
+}
+
+.panel__travel {
+    padding: 0;
+    margin-right: 0;
+    font-size: 14px;
+    font-family: "Arial MT", sans-serif;
+    text-decoration: none;
+    color: #8c8c8c;
+    display: inline-block;
+}
+
+.main {
+    padding: 0;
+    margin: 0 auto auto auto;
+    width: 1062px;
+}
+
+.main__title-photo {
+    margin: 0 auto 0 auto;
+    height: 675px;
+    width: 1062px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.main__post {
+    width: 657px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.main__post_category {
+    font-family: "Arial MT", sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.main__post_title {
+    font-family: "Arial MT", sans-serif;
+    font-size: 30px;
+    color: #626262;
+    font-weight: lighter;
+}
+
+.main__post_text {
+    font-family: "Arial MT", sans-serif;
+    font-size: 14px;
+    color: #626262;
+}
+
+.main__post_photo {
+    height: 620px;
+    width: 928px;
+    margin: auto;
+}
+
+.main__post_photo-wrapper {
+    width: 657px;
+    height: 520px;
+    overflow: hidden;
+}
+
+.main__right {
+    float: right;
+    width: 272px;
+    margin: 100px 0 auto auto;
+    display: inline-block;
+}
+
+.main__right_about-photo {
+    width: 272px;
+    height: 177px;
+}
+
+.main__right_about-header {
+    font-family: "Arial MT", sans-serif;
+    font-size: 24px;
+    color: #626262;
+    font-weight: lighter;
+}
+
+.main__right_about-text {
+    font-family: "Arial MT", sans-serif;
+    font-size: 12px;
+    color: #626262;
+    font-weight: lighter;
+}
+
+.main__right_top-posts_title {
+    font-family: "Arial MT", sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.main__right_top-posts_list-item {
+    color: #b4ad9e;
+}
+
+.main__right_top-posts_list-item_title {
+    font-family: "Arial MT", sans-serif;
+    font-size: 16px;
+    color: #626262;
+}
+
+.main__right_top-posts_comments {
+    font-family: "Arial MT", sans-serif;
+    font-size: 12px;
+    color: #c6c1b6;
+    text-decoration: none;
+}
+
+
+.footer {
+    background-color: #f0f0f0;
+    width: auto;
+    height: 100px;
+    margin-top: 250px;
+    margin-bottom: 0;
+}
+
+.footer__links-wrapper {
+    margin: 0 auto auto auto;
+    padding-top: 45px;
+    width: 1062px;
+    height: inherit;
+}
+
+.footer__terms {
+    font-size: 14px;
+    font-family: "Arial MT", sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer__privacy {
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: "Arial MT", sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
