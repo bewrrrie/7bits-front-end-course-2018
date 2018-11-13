@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.post {
+    width: 360px;
+    height: 327px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    background: url("../img/forestroad.png") no-repeat;
+
+    margin: 0;
+    padding: 228px 0 0;
+    font-size: 0;
+    display: block;
+}
+
+.post__icon_box {
+    width: 40px;
+    height: 35px;
+    background-color: #262626;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.post__icon_img {
+    margin: 6px auto auto 6px;
+}
+
+.post__text {
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post__text_category {
+    font-family: "Hind", sans-serif;
+    font-size: 14px;
+    margin: -57px auto auto auto;
+    color: #a5a5a5;
+    width: 81px;
+    height: 16px;
+}
+
+.post__text_title {
+    margin: 15px auto auto;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    width: 270px;
+    color: #212121;
+}
+
+.post__text_date {
+    margin: 7px auto auto;
+    font-size: 14px;
+    font-family: "Hind", sans-serif;
+    color: #a5a5a5;
+    width: 106px;
+    height: 16px;
+}
+
+.post__read_more_button {
+    background: url("../img/button.png"), no-repeat;
+    width: 96px;
+    height: 32px;
+    margin-top: 38px;
+    display: inline-block;
+    margin-left: 132px;
+    margin-right: auto;
+    transition: 0s background;
+}
+
+.post__read_more_button:hover {
+    background: url("../img/button_hover.png"), no-repeat;
+    transition-delay: 2s;
+}
+
+.long_line {
+    margin-top: 40px;
+}
+
+.post__comments {
+    margin-left: 30px;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.post__comments_icon {
+    display: inline-block;
+}
+
+.post__comments_title {
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Hind", sans-serif;
+    text-transform: uppercase;
+    color: #999999;
+    display: inline-block;
+}

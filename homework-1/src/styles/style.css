@@ -124,7 +124,7 @@
 .main__right {
     float: right;
     width: 272px;
-    margin: 100px 0 auto auto;
+    margin-top: 100px;
     display: inline-block;
 }
 
